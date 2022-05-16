@@ -501,28 +501,245 @@ fieldset {
 	background-color: #fff;
 	border-radius: 12px;
 }
+
 .left {
 	width: 60%;
 	padding: 45px;
 }
 .right {
 	width: 50%;
-	background-color: #5746ec;
+	background-color: rgb(114,100,239);
 	border-bottom-right-radius: 12px;
 	border-top-right-radius: 12px;
 }
 .right-content-2 {
 	width: 50%;
-	background-color: #5746ec;
-
+	background-color: rgb(114,100,239);
+     
 	border-bottom-left-radius: 12px;
 	border-top-left-radius: 12px;
 	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
-}
-.right-content-2 img {
 	object-fit: contain;
-	width: 100%;
-	padding: 60px;
+	height: 475px;
+	padding: 45px;
+	border: 1px solid red;
+}
+
+.rec-1{
+	background: #E1DDFF;
+	position: absolute;
+border-radius: 10px;
+width: 50%;
+height: 147px;
+position: relative;
+left:184px
+}
+.rec-1 img{
+	width: 180px;
+	height: 146px;
+	border-radius: 10px;
+	object-fit:cover
+}
+.rec-1 .hair{
+   width:60%;
+   position: relative;
+   left: 30px;
+}
+.rec-1 .face{
+	width: 40%;
+    position: relative;
+    left: 44px;
+    bottom: 46px;
+}
+.rec-1 .neck{
+	width: 40%;
+    position: relative;
+    left: -25px;
+    top: -19px;
+}
+.rec-1 .shoulder{
+	width: 40%;
+    position: relative;
+    left: 37px;
+    top: -19px;
+}
+.rec-1 .left-wig{
+	width: 27%;
+    position: relative;
+    left: -64px;
+    top: -164px;
+
+}
+.rec-1 .right-wig{
+	width: 22%;
+    position: relative;
+    left: 78px;
+    top: -199px;
+}
+.rec-1 .left-ear{
+	width: 11%;
+    position: relative;
+    left: -41px;
+    top: -147px;
+}
+.rec-1 .nose{
+	position: relative;
+    left: 33px;
+    top: -192px;
+}
+
+
+
+.rec-2{
+	background: #E1DDFF;
+border-radius: 10px;
+width: 50%;
+height: 147px;
+position: relative;
+left:94px;
+top: -34px;
+}
+.rec-2 img{
+	width: 180px;
+    height: 146px;
+    border-radius: 10px;
+    object-fit: cover;
+	position: relative;
+    left: 1px;
+    top: 1px;
+
+}
+.rec-3{
+	background: #E1DDFF;
+border-radius: 10px;
+width: 50%;
+height: 147px;
+position: relative;
+left:-3px;
+top:-77px;
+}
+.rec-3 .boy-hat{
+	position: relative;
+	top:6px;
+	left:72px;
+}
+.rec-3 .head{
+	position: relative;
+	top:36px;
+	left:0px;
+	z-index: 1;
+}
+.rec-3 .face{
+	position: relative;
+	top:-1px;
+	left:58px;
+	/* z-index: 1; */
+}
+.rec-3 .left-ear{
+	position: relative;
+	top: -39px;
+	left: -38px;
+}
+.rec-3 .right-ear{
+	position: relative;
+	top: -36px;
+	left:20px;
+}
+.rec-3 .right-eyes{
+	position: relative;
+	top: -47px;
+	left:-36px;
+}
+.rec-3 .left-eyes{
+	position: relative;
+	top: -48px;
+	left:-62px;
+}
+.rec-3 .nose{
+	position: relative;
+	top: -31px;
+	left:-62px;
+}
+.rec-3 .mouth{
+	position: relative;
+	top: -40px;
+	left:80px;
+}
+.rec-3 .shoulder{
+	position: relative;
+	top: -32px;
+	left: 10px;
+}
+.rec-3 .collar{
+	position: relative;
+	top: -97px;
+	left: 66px;
+}
+
+
+.rec-4{
+	background-color: #fff;
+	width: 34%;
+	height: 100px;
+	bottom: 401px;
+	position: relative;
+	border-radius: 6px;
+
+}
+.rec-4 .circle1{
+	position: relative;
+	top:19px;
+	left:72px;
+}
+.rec-4 .circle2{
+	position: relative;
+	top:45px;
+	left:25px;
+}
+.rec-4 .circle3{
+	position: relative;
+	top:41px;
+	left:-44px;
+}
+.rec-4 .circle4{
+	position: relative;
+	top:-21px;
+	left:28px;
+}
+.rec-4 .circle5{
+	position: relative;
+	top:-40px;
+	left:15px;
+}
+
+.rec-5{
+	background-color: #fff;
+	width: 50%;
+	height: 95px;
+	bottom: 320px;
+	position: relative;
+	border-radius: 6px;
+	left: 190px;
+	padding: 5px;
+}
+.rec-5 .line{
+width:90%;
+margin: 0 auto;
+/* display: flex; */
+position: relative;
+bottom: -65px;
+margin-left: 10px;
+
+
+}
+.graph{
+	margin-left: 32px;
+	position: relative;
+	bottom: 27px;
+	
+}
+.graph img{
+	margin-right: 7px;
 }
 .right img {
 	object-fit: contain;
@@ -597,7 +814,7 @@ fieldset {
 }
 /* CONTACT SECTION */
 .contact {
-	background: #5746ec;
+	background: rgb(114,100,239);
 	border-radius: 20px;
 	width: 1380px;
 	height: 320px;
@@ -610,7 +827,6 @@ fieldset {
 	font-family: "Work Sans";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
 	letter-spacing: -0.02em;
 	color: #ffffff;
 }
@@ -620,7 +836,7 @@ fieldset {
 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	padding: 10px 110px;
-	margin: 10px auto;
+	margin: 13px auto;
 	display: flex;
 	font-weight: 600;
 	font-size: 18px;
@@ -639,7 +855,7 @@ h3 {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 50px;
-	line-height: 60px;
+	line-height: 50px;
 	color: #ffffff;
 	padding: 22px;
 }
